@@ -14,5 +14,10 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      	<groupId>org.jboss.netty</groupId>
+ 		<artifactId>netty</artifactId>
+	  	<version>3.2.2.Final</version>
+    </dependency>
   </dependencies>
 </project>
