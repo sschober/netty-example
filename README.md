@@ -6,7 +6,7 @@ This [sample code][2] is from taken from the netty distribution.
 [1]: http://www.jboss.org/netty
 [2]: http://docs.jboss.org/netty/3.2/xref/org/jboss/netty/example/discard/package-summary.html
 
-## Archetypes
+## Archetypes345
 
 To create an archetype from this project you can use:
 
