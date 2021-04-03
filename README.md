@@ -1,6 +1,6 @@
 # Netty Discard Server Example
 
-A minimal maven project using [Netty][1].
+A minimal maven project using [Netty][1]..
 This [sample code][2] is from taken from the netty distribution.
 
 [1]: http://www.jboss.org/netty
