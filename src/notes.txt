@@ -2,3 +2,4 @@ here is my first update to cheak my githook
 second time try to bush 
 third test.
 testttt
+test git hook
