@@ -15,3 +15,19 @@ jobs:
           uses: actions/checkout@v3
         - name: mvn test
           run: mvn test
+
+    build:
+      needs: test
+      runs-on: ubuntu-latest
+      steps:
+        - name: Get code
+          uses: actions/checkout@v3
+        - name: build Jarfile
+          run: mvn build
+        - name: upload artifcats
+          uses: actions/upload-artifact@v3.1.1
+          with:
+            name: project.war
+            path: artifact
+        
+    
