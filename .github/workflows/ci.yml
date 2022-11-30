@@ -23,7 +23,7 @@ jobs:
         - name: Get code
           uses: actions/checkout@v3
         - name: build Jarfile
-          run: mvn build
+          run: mvn install
         - name: upload artifcats
           uses: actions/upload-artifact@v3.1.1
           with:
